@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Document</title>
+
+    <style>
+
+        .div {
+            width: 200px;
+            margin: 0 auto;
+            border-color: #005f6b;
+            border-width: 1px;
+            border-style: solid;
+            background-color: black;
+          }
+
+          .contenedor {position:relative;	 width:965px; height:1000px; margin:0px auto; text-align:center; background-color: rgb(59, 26, 59);}
+          .cabecera{width:965px; height:150px;}
+          .cuerpo {width:450px; height:300px; margin-left:auto; margin-right: auto; background-color: rgba(255, 255, 255, 0.090);}
+          .pie {width:965px; height:150px;}  
+
+    </style>
+</head>
+<body>
+     <!--b-navbar muestra un menu -->
+   <form method="post" action="/verificar"   enctype="multipart/form-data">
+
+     <div class="contenedor" >
+
+        <div class="cabecera"></div>
+        
+
+        <div class="cuerpo">
+ <!-- b-form-group me saca este html code para hacer la form -->
+ <div class="form-group" >
+    <label for="txtUsuario">Usuario:</label>
+    <input id="txtUsuario" class="form-control" type="text" name="txtUsuario">
+ </div>
+
+ <div class="form-group">
+    <label for="txtContraseña">Contraseña</label>
+    <input id="txtContraseña" class="form-control" type="text" name="txtContraseña">
+ </div>            
+
+
+        </div>
+
+
+        <div class="pie"></div>
+
+        </div>
+
+
+   </form>
+</body>
+</html>
+
+
+
+
